@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unyana — Поддержка / Support</title>
+<style>
+  :root {
+    --lavender: #CB99C9;
+    --purple-dark: #9D6BA0;
+    --bg: #F2EDF7;
+    --text: #1E1535;
+    --text-soft: #5B4E70;
+    --card: #FFFFFF;
+    --border: #E3D6EA;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .top {
+    background: linear-gradient(135deg, var(--lavender) 0%, var(--purple-dark) 100%);
+    padding: 48px 24px 40px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .top h1 {
+    margin: 0 0 6px;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+  }
+
+  .top p {
+    margin: 0;
+    font-size: 15px;
+    opacity: 0.92;
+  }
+
+  .lang-switch {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 22px;
+  }
+
+  .lang-switch a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 18px;
+    border: 1.5px solid rgba(255,255,255,0.55);
+    border-radius: 999px;
+    transition: background 0.15s ease;
+  }
+
+  .lang-switch a:hover,
+  .lang-switch a:focus-visible {
+    background: rgba(255,255,255,0.18);
+  }
+
+  main {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 36px 20px 80px;
+  }
+
+  section.doc {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 32px 28px;
+    margin-bottom: 28px;
+  }
+
+  section.doc h2.doc-title {
+    margin: 0 0 4px;
+    font-size: 22px;
+    color: var(--purple-dark);
+  }
+
+  .updated {
+    font-size: 13px;
+    color: var(--text-soft);
+    margin: 0 0 28px;
+  }
+
+  h3 {
+    font-size: 16px;
+    color: var(--text);
+    margin: 28px 0 8px;
+    padding-top: 4px;
+    border-top: 1px solid var(--border);
+  }
+
+  section.doc > h3:first-of-type {
+    border-top: none;
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  p, li {
+    font-size: 15.5px;
+    color: var(--text);
+  }
+
+  ul {
+    margin: 8px 0;
+    padding-left: 22px;
+  }
+
+  li {
+    margin-bottom: 4px;
+  }
+
+  strong {
+    color: var(--purple-dark);
+  }
+
+  .contact-block {
+    background: var(--bg);
+    border-radius: 12px;
+    padding: 14px 18px;
+    margin-top: 8px;
+  }
+
+  .contact-block p {
+    margin: 2px 0;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 13px;
+    color: var(--text-soft);
+    padding-bottom: 40px;
+  }
+
+  a.email-link {
+    color: var(--purple-dark);
+    font-weight: 600;
+  }
+</style>
+</head>
+<body>
+
+<div class="top">
+  <h1>Unyana</h1>
+  <p>Поддержка &nbsp;/&nbsp; Support</p>
+  <div class="lang-switch">
+    <a href="#ru">Русский</a>
+    <a href="#en">English</a>
+  </div>
+</div>
+
+<main>
+
+  <section class="doc" id="ru" lang="ru">
+    <h2 class="doc-title">Поддержка Unyana</h2>
+    <p class="updated">Последнее обновление: сентябрь 2026</p>
+
+    <p>Если что-то не работает, есть вопрос или просто хотите что-то предложить — пишите.</p>
+    <div class="contact-block">
+      <p><strong>Эдуард Корнилович</strong></p>
+      <p>Email: <a class="email-link" href="mailto:Stanumus@gmail.com">Stanumus@gmail.com</a></p>
+    </div>
+    <p>Отвечаю лично, обычно в течение нескольких дней — приложение делает один человек, не команда поддержки.</p>
+    <p><a class="email-link" href="index.html">Политика конфиденциальности</a></p>
+
+    <h3>Частые вопросы</h3>
+
+    <h3>Как работает синхронизация между устройствами?</h3>
+    <p>Оба телефона должны быть в одной локальной сети (Wi-Fi) с включённым Bluetooth — синхронизация идёт напрямую между устройствами, без интернета и серверов. Включается в Профиль → Семья → Семейный доступ.</p>
+
+    <h3>Не получается найти второе устройство при синхронизации</h3>
+    <p>Проверьте, что на обоих телефонах включён Wi-Fi и разрешён доступ к локальной сети для Unyana (Настройки → Конфиденциальность → Локальная сеть). Также оба устройства должны быть рядом физически — синхронизация не работает через интернет.</p>
+
+    <h3>Что будет с данными, если удалить приложение?</h3>
+    <p>Все данные хранятся только на устройстве — при удалении приложения они удаляются вместе с ним, без возможности восстановления. Перед удалением рекомендуем сделать резервную копию (Профиль → Экспорт).</p>
+
+    <h3>Приложение платное?</h3>
+    <p>Нет, все текущие функции бесплатны и останутся такими.</p>
+  </section>
+
+  <section class="doc" id="en" lang="en">
+    <h2 class="doc-title">Unyana Support</h2>
+    <p class="updated">Last updated: September 2026</p>
+
+    <p>If something isn't working, you have a question, or just want to suggest something — write to us.</p>
+    <div class="contact-block">
+      <p><strong>Eduard Kornilovich</strong></p>
+      <p>Email: <a class="email-link" href="mailto:Stanumus@gmail.com">Stanumus@gmail.com</a></p>
+    </div>
+    <p>I answer personally, usually within a few days — the app is made by one person, not a support team.</p>
+    <p><a class="email-link" href="index.html">Privacy Policy</a></p>
+
+    <h3>Frequently Asked Questions</h3>
+
+    <h3>How does sync between devices work?</h3>
+    <p>Both phones need to be on the same local Wi-Fi network with Bluetooth enabled — sync happens directly between devices, without the internet or servers. Enable it in Profile → Family → Family Sharing.</p>
+
+    <h3>Can't find the second device during sync</h3>
+    <p>Check that Wi-Fi is on and local network access is allowed for Unyana on both phones (Settings → Privacy → Local Network). Both devices also need to be physically nearby — sync doesn't work over the internet.</p>
+
+    <h3>What happens to my data if I delete the app?</h3>
+    <p>All data is stored only on the device — deleting the app deletes the data with it, with no way to recover it. We recommend making a backup before deleting (Profile → Export).</p>
+
+    <h3>Is the app paid?</h3>
+    <p>No, all current features are free and will stay that way.</p>
+  </section>
+
+</main>
+
+<footer>
+  Unyana &nbsp;·&nbsp; © 2026
+</footer>
+
+</body>
+</html>
